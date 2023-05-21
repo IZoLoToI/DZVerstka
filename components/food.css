@@ -1,0 +1,30 @@
+.food__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 956px;
+}
+
+.food__title {
+  font-family: var(--main-font);
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--font-color);
+  align-self: flex-start;
+  margin: 56px 0 16px;
+}
+
+.food__menu {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
